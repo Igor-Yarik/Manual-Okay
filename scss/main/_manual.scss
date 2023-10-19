@@ -1,0 +1,129 @@
+.manual {
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 20px 40px 20px;
+    padding: 48px 48px 48px 40px;
+    background-color: #E8EFE9;
+
+    &__items {
+        width: 50%;        
+    }
+
+    &_new {
+        display: inline-block;
+        color: #0B3B3C;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding: 4px 5px;
+        background-color: #BDCDC5;
+        margin-top: 75px;        
+    }
+
+    &_title {
+        color: #0B3B3C;
+        font-size: 36px;
+        line-height: 60px;
+        letter-spacing: 1.2px;
+        margin-bottom: 27px;
+        margin-top: 24px;
+    }
+
+    &_text {
+        color: #0B3B3C;
+        line-height: 29px;
+        margin-bottom: 37px;
+        width: 602px;
+    }
+
+    &__list {
+            display: flex;
+            justify-content: space-between;
+            
+        &_item {
+            color: #0B3B3C;
+            font-size: 15px;
+            line-height: 29px;
+            background-image: url(../images/main/manual/check_icon.png);
+            background-repeat: no-repeat;
+            background-position-y: center;
+            padding-left: 19px;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding-left: 170px;
+
+        &_item {            
+            display: flex;
+            justify-content: center;
+            width: 150px;
+            height: 150px;
+            background-color: #FFF;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-position-y: 22px;
+            transition: all 0.2s;
+
+            &:nth-child(1) {
+                background-image: url(../images/main/manual/manual_icon_01.png);
+            }
+
+            &:nth-child(2) {
+                background-image: url(../images/main/manual/manual_icon_02.png);
+            }
+
+            &:nth-child(3) {
+                background-image: url(../images/main/manual/manual_icon_03.png);
+            }
+
+            &:nth-child(4) {
+                background-image: url(../images/main/manual/manual_icon_04.png);
+            }
+
+            &:nth-child(5) {
+                background-image: url(../images/main/manual/manual_icon_05.png);
+            }
+
+            &:nth-child(6) {
+                background-image: url(../images/main/manual/manual_icon_06.png);
+            }
+
+            &:nth-child(7) {
+                background-image: url(../images/main/manual/manual_icon_07.png);
+            }
+
+            &:nth-child(8) {
+                background-image: url(../images/main/manual/manual_icon_08.png);
+            }
+
+            &:nth-child(9) {
+                background-image: url(../images/main/manual/manual_icon_09.png);
+            }            
+
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.2s;
+                box-shadow: 0 0 20px 1px #0B3B3C;
+            }            
+        }
+
+        &_link { 
+            display: flex;  
+            justify-content: center;
+            align-items: end;    
+            width: 100%;
+            text-align: center;
+            padding-bottom: 21px;            
+            color: #0B3B3C;
+            font-size: 18px;
+            line-height: 30.06px;
+        }
+    }    
+}

@@ -1,0 +1,49 @@
+.main__nav {
+    padding: 30px;
+
+    &_list {
+
+        &_items {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &_item {
+            width: 345px;
+            transition: all 0.2s;
+            
+            &:nth-child(1) {
+                background-image: url(../images/main/nav/icon/main_icon_1.png);
+                background-repeat: no-repeat;
+            }
+
+            &:nth-child(2) {
+                background-image: url(../images/main/nav/icon/main_icon_2.png);
+                background-repeat: no-repeat;
+            }
+
+            &:nth-child(3) {
+                background-image: url(../images/main/nav/icon/main_icon_3.png);
+                background-repeat: no-repeat;
+            }
+
+            &:nth-child(4) {
+                background-image: url(../images/main/nav/icon/main_icon_4.png);
+                background-repeat: no-repeat;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.2s;
+            }
+        } 
+    }
+
+    &_link {
+        color: #0B3B3C; 
+        display: flex;
+            align-items: center;
+            padding-left: 64px;
+            height: 50px;
+    }
+}

@@ -1,0 +1,76 @@
+.header__nav {
+
+    padding: 18px 40px;
+
+    &_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_items {
+            display: flex;
+            align-items: center;      
+        }
+
+        &_shop {
+            margin-right: 43px;            
+        }
+
+        &_read {
+            margin-right: 28px;            
+        }
+        
+        &_login {
+            margin-left: 28px;            
+        }
+
+        &_basket {
+            margin-left: 28px;            
+        }
+    } 
+
+    &_link {
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #0B3B3C;      
+        transition: all 0.2s;  
+
+        &:hover {
+            text-shadow: 0 0 3px #0B3B3C;
+            transition: all 0.2s;            
+        }
+    }    
+}
+
+.header__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 170px 0;
+    background-image: url(../images/header/header_bg.jpg);
+
+    &_title {
+        width: 469px;
+        color: #0B3B3C;
+        text-align: center;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 1.8px;
+        margin-bottom: 23px;
+    }
+
+    &_text {
+        width: 481px;
+        color: #0B3B3C;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30.06px;
+        margin-bottom: 41px;
+    }
+
+    & .btn_red {
+        margin-bottom: 20px;
+    }    
+}

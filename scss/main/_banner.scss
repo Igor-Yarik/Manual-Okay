@@ -1,0 +1,40 @@
+.banner {
+    text-align: center;    
+    color: #0B3B3C;
+    padding-bottom: 65px;
+
+    &__title {        
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    &__person {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 31px;
+
+        &_photo {
+            margin-bottom: 62px;
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    &__foot {
+        font-size: 12px;
+        line-height: 21.6px;
+
+        & span {
+            font-size: 9px;
+        }
+    }
+}
