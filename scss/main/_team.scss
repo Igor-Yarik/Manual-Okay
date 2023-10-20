@@ -6,7 +6,6 @@
 
     &__title {
         font-size: 35px;
-        font-style: normal;
         font-weight: 400;
         line-height: 60px;
         letter-spacing: 1.2px;
@@ -15,10 +14,7 @@
 
     &__text {
         display: inline-block;
-        font-family: Roboto;
         font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 43px;
         letter-spacing: 0.72px;
         margin-bottom: 30px;
@@ -26,12 +22,6 @@
 
         & span {
             color: #7E0707;
-            font-family: Roboto;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 43px;
-            letter-spacing: 0.72px;
         }        
     }
 
@@ -45,22 +35,16 @@
 
         &_img {
             padding-bottom: 37px;
-
         }
 
         &_title {
-            font-family: Roboto;
             font-size: 18px;
-            font-style: normal;
             font-weight: 400;
             line-height: 32px;            
         }
 
         &_text {
             color: #91AB9F;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
             line-height: 29px;
             margin-bottom: 50px;
         }

@@ -439,7 +439,6 @@ li {
 }
 .team__title {
   font-size: 35px;
-  font-style: normal;
   font-weight: 400;
   line-height: 60px;
   letter-spacing: 1.2px;
@@ -447,10 +446,7 @@ li {
 }
 .team__text {
   display: inline-block;
-  font-family: Roboto;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 43px;
   letter-spacing: 0.72px;
   margin-bottom: 30px;
@@ -458,12 +454,6 @@ li {
 }
 .team__text span {
   color: #7E0707;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 43px;
-  letter-spacing: 0.72px;
 }
 .team__items {
   display: flex;
@@ -474,17 +464,12 @@ li {
   padding-bottom: 37px;
 }
 .team__item_title {
-  font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
 .team__item_text {
   color: #91AB9F;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 29px;
   margin-bottom: 50px;
 }
