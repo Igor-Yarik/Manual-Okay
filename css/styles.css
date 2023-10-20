@@ -103,6 +103,7 @@ li {
   border: 2px solid #7E0707;
   background: none;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -535,4 +536,57 @@ li {
   justify-content: space-between;
   gap: 20px;
   padding: 40px 482px;
+  background-color: #F3F7F4;
+}
+
+.guided {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  color: #0B3B3C;
+}
+.guided_title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1.2px;
+  margin-bottom: 36px;
+}
+.guided_text {
+  text-align: center;
+  font-size: 23px;
+  line-height: 43px;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+  /* width: 558px; */
+}
+.guided__items {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.guided__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 300px;
+}
+.guided__item_img {
+  margin-bottom: 24px;
+}
+.guided__item_title {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  margin-bottom: 77px;
+  padding-right: 50px;
+}
+.guided__item_link {
+  color: #0B3B3C;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
 }
