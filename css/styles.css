@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, h4, p, a {
   margin: 0;
 }
 
@@ -429,4 +429,93 @@ li {
 }
 .banner__foot span {
   font-size: 9px;
+}
+
+.team {
+  color: #0B3B3C;
+  padding-right: 274px;
+  padding-left: 274px;
+  text-align: center;
+}
+.team__title {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+}
+.team__text {
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+  width: 823px;
+}
+.team__text span {
+  color: #7E0707;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0.72px;
+}
+.team__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.team__item_img {
+  padding-bottom: 37px;
+}
+.team__item_title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.team__item_text {
+  color: #91AB9F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 50px;
+}
+
+.consultation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 145px;
+  border-top: 1px solid #BDCDC5;
+}
+.consultation__items {
+  padding: 46px 0 45px 73px;
+  background-image: url(../images/main/team/phone_icon.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 24px;
+}
+.consultation__items_title {
+  color: #0B3B3C;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0.72px;
+}
+.consultation__items_text {
+  color: #91AB9F;
+  font-size: 15px;
+  line-height: 29px;
+}
+.consultation .btn {
+  width: 330px;
+  margin-right: 75px;
 }
